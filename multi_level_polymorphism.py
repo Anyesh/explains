@@ -125,3 +125,25 @@ s.commit()
 s.close()
 
 assert len(s.query(HCPBudget).all()) == 2
+
+
+def get_budget_funders(
+    self,
+    client_id: int,
+    *,
+    budget_type: str = None,
+    budget_status: str | list[str] = None,
+) -> list[tuple[int]]:
+    """Get a list of funders for a client's budget."""
+    model: Budget = self._get_model(BaseBudget.TYPE_BUDGET)
+
+    query = self.session.query(model.funder_id).filter(model.client_id == client_id)
+
+    if budget_status:
+        if not isinstance(budget_status, list):
+            budget_status = [budget_status]
+        query = query.filter(model.status.in_(budget_status))
+    if budget_type:
+        query = query.join(BudgetType).filter(BudgetType.name == budget_type)
+
+    return query.all()
