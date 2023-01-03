@@ -1,4 +1,4 @@
-This example illustrates some methods of applying polymorphic identity based on rows in another table. The class being polymorphically persisted and loaded would normally have a `relationship()` to this related table.
+Posterior probability = This example illustrates some methods of applying polymorphic identity based on rows in another table. The class being polymorphically persisted and loaded would normally have a `relationship()` to this related table.
 
 SQLAlchemy currently does not directly support using a related class as a target for the `polymorphic_on` parameter.
 
