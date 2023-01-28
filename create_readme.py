@@ -20,7 +20,7 @@ def create_readme():
             if path.name == "README.md":
                 continue
             if path.stem not in [x[0] for x in existing_explains if x]:
-                raw_url = f"https://raw.githubusercontent.com/Anyesh/explains/master/{path.name}"
+                raw_url = f"https://github.com/Anyesh/explains/blob/master/{path.name}"
 
                 readme.write(f"- [{path.stem}]({quote_plus(raw_url)})\n")
 
