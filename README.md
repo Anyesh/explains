@@ -8,4 +8,4 @@
 - [Bayesian machine learning and Bayesian inference](https://github.com/Anyesh/explains/blob/master/Bayesian%20machine%20learning%20and%20Bayesian%20inference.md)
 - [How can we create polymorphic on another table on SQLAlchemy](https://github.com/Anyesh/explains/blob/master/How+can+we+create+polymorphic+on+another+table+on+SQLAlchemy.md)
 - [SQLAlchemy helpers](https://github.com/Anyesh/explains/blob/master/SQLAlchemy+helpers.md)
-- [What happens to python GIL when running multi threading](https%3A%2F%2Fgithub.com%2FAnyesh%2Fexplains%2Fblob%2Fmaster%2FWhat+happens+to+python+GIL+when+running+multi+threading.md)
+- [What happens to python GIL when running multi threading](/What+happens+to+python+GIL+when+running+multi+threading.md)
