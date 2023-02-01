@@ -1,4 +1,4 @@
-# can there be a situation where two simultaneous requests were able to acquire the same redis lock
+# can there be a situation where two simultaneous requests were able to acquire the same redis lock?
 
 It is possible for two simultaneous requests to acquire the same Redis lock if the lock implementation does not use Redis' atomic operations correctly. Redis provides various atomic operations like SETNX (SET if Not eXists) and Lua scripts that can be used to implement a locking mechanism, but if the lock implementation does not use these operations in a thread-safe manner, it is possible for two requests to acquire the same lock simultaneously. Additionally, network delays, high latency, and Redis server overload can also lead to such situations. It's important to carefully design and test the lock implementation to ensure that it provides the desired level of concurrency control.
 
