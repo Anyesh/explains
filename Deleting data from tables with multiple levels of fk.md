@@ -1,3 +1,5 @@
+# Deleting data from tables with multiple levels of foreign key relationships can become complex and time-consuming
+
 One approach you could take is to write a recursive function that deletes the related data in the child tables first, and then deletes the data in the parent table. This way, you don't have to worry about manually identifying and deleting the related data in each child table.
 
 Here's an example of how you could write such a function in a procedural language like MySQL Stored Procedures:
