@@ -12,3 +12,4 @@
 - [Simultaneous Redis Lock Acquirement](https://github.com/Anyesh/explains/blob/master/Simultaneous%20Redis%20Lock%20Acquirement.md)
 - [permutations and combinations](https://github.com/Anyesh/explains/blob/master/permutations%20and%20combinations.md)
 - [Why you shouldnt expose entity data in service layer](https://github.com/Anyesh/explains/blob/master/Why%20you%20shouldnt%20expose%20entity%20data%20in%20service%20layer.md)
+- [Deleting data from tables with multiple levels of foreign key relationships can become complex and time-consuming](https://github.com/Anyesh/explains/blob/master/Deleting%20data%20from%20tables%20with%20multiple%20levels%20of%20foreign%20key%20relationships%20can%20become%20complex%20and%20time-consuming.md)
