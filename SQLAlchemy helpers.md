@@ -1,4 +1,3 @@
-Posterior probability = 
 ```python
 from sqlalchemy.orm import object_session
 
@@ -11,7 +10,6 @@ class Book(db.Model):
     def author(self):
         return object_session(self).get(Author, self.author_id)
 ```
-
 
 ```python
 from flask_sqlalchemy import Model, SQLAlchemy
@@ -59,8 +57,7 @@ class B(A):
         backref='b', primaryjoin=A.id == a_id, remote_side=A.id)
 ```
 
-
-```python
+````python
 from sqlalchemy import *
 from sqlalchemy.orm import *
 metadata = MetaData()
@@ -96,5 +93,8 @@ mapper(Child, childrenTable, inherits=Parent, polymorphic_identity="child")
 
 ```python
 polymorphic_on=parentsTable.c.parentTypeId
+````
+
 ```
+
 ```
