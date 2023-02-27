@@ -12,8 +12,6 @@ However, this limitation does not apply to I/O bound tasks, because I/O operatio
 
 For example, if you are doing a task of reading files from disk, and you want to read multiple files simultaneously, you can create multiple threads and assign each thread to read one file. While one thread is waiting for the file to be read from disk, the GIL is released and other thread can execute and read another file. This way, the program can finish reading all files faster, than if it was reading one file after another in a single thread.
 
-When using multi-threading in Python for I/O bound tasks, the Python interpreter will release the GIL while waiting for I/O operations to complete, allowing other threads to run and execute Python bytecodes. This allows for concurrency and can improve the performance of I/O bound tasks.
-
-In summary, the GIL does not prevent multi-threading in I/O bound tasks, because such tasks are performed outside the Python interpreter, allowing the operating system to handle them concurrently.
-
 It's worth noting that using the concurrent.futures library with ThreadPoolExecutor will also work in the same way, in this case, the parallelism is achieved by using the threading module internally and the GIL will not be a bottleneck for I/O bound tasks.
+
+In practice, the GIL can limit the performance benefits of using multiple threads in a Python program, especially if the program spends a lot of time executing CPU-bound operations in pure Python code. To work around this limitation, you can use processes instead of threads, as each process has its own interpreter and GIL. Alternatively, you can use libraries that release the GIL during CPU-bound operations, such as NumPy or Cython, or use asynchronous programming techniques such as asyncio to achieve concurrency without using threads.
