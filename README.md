@@ -12,3 +12,5 @@
 - [permutations and combinations](https://github.com/Anyesh/explains/blob/master/permutations%20and%20combinations.md)
 - [Why you shouldnt expose entity data in service layer](https://github.com/Anyesh/explains/blob/master/Why%20you%20shouldnt%20expose%20entity%20data%20in%20service%20layer.md)
 - [What you should read](https://github.com/Anyesh/explains/blob/master/What%20you%20should%20read.md)
+- [CUPID principle](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)
+- [It's probably time to stop recommending Clean Code](https://qntm.org/clean)
