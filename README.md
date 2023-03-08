@@ -14,3 +14,4 @@
 - [What you should read](https://github.com/Anyesh/explains/blob/master/What%20you%20should%20read.md)
 - [CUPID principle](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)
 - [It's probably time to stop recommending Clean Code](https://qntm.org/clean)
+- [Why not to index everything in sql](https://github.com/Anyesh/explains/blob/master/Why%20not%20to%20index%20everything%20in%20sql.md)
