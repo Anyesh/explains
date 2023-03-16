@@ -20,3 +20,6 @@
 - [A Python-esque Type System for Python: Duck Typing Statically](https://trm.io/2017/01/29/structural-subtyping-python)
 
 - [REST 4XX Status Codes, Syntax and Semantics](http://parker0phil.com/2014/10/16/REST_http_4xx_status_codes_syntax_and_sematics/)
+
+- [CUPID principle](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)
+- [It's probably time to stop recommending Clean Code](https://qntm.org/clean)
