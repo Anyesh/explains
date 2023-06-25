@@ -14,3 +14,4 @@
 - [What you should read](https://github.com/Anyesh/explains/blob/master/What%20you%20should%20read.md)
 - [Why not to index everything in sql](https://github.com/Anyesh/explains/blob/master/Why%20not%20to%20index%20everything%20in%20sql.md)
 - [All about table normalization](https://github.com/Anyesh/explains/blob/master/All%20about%20table%20normalization.md)
+- [Resources for ml](https://github.com/Anyesh/explains/blob/master/Resources%20for%20ml.md)
