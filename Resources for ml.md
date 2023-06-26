@@ -12,3 +12,7 @@
 11. https://playground.tensorflow.org/ [GitHub: https://github.com/tensorflow/playground]
 12. https://nnplayground.com/
 13. https://poloclub.github.io/cnn-explainer/
+
+## LLM Resources
+15. https://finbarr.ca/how-is-llama-cpp-possible/ [https://github.com/ggerganov/llama.cpp]
+16. https://gpt4all.io/index.html [https://github.com/nomic-ai/gpt4all]
